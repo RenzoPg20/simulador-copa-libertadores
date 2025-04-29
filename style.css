@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  background: url("https://images7.alphacoders.com/375/375412.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  margin: 20px;
+  background-color: #c7a008;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+background-color: #ffcc00d6;
+
+}
+
+.contenedor-bolilleros {
+  margin-bottom: 40px;
+
+  
+}
+
+.bolilleros-lista {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  
+ 
+}
+
+
+
+.bolillero {
+  background: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+ 
+}
+
+
+
+
+.bolillero:hover{
+  transform: scale(1.1);
+  
+}
+
+
+.bolillero h3 {
+  background-color: #c7a008 ;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.equipo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  color: white;
+}
+
+.equipo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contenedor-grupos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+  color: white;
+}
+
+.grupo {
+  background: black;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grupo h3 {
+  margin-bottom: 15px;
+  background: #c7a008;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+@keyframes caer {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.equipo-animado {
+  animation: caer 0.6s ease-out;
+  margin: 8px 0;
+}
+
+
+

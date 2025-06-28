@@ -169,7 +169,7 @@ function mostrarBolilleros() {
   bolilleros.forEach((bolillero, i) => {
     const div = document.createElement("div");
     div.className = "bolillero";
-    div.innerHTML = '<h3>Bolilleros + ${i+1}</h3>';
+    div.innerHTML = `<h3>Bolillero ${i + 1}</h3>`;
 
     bolillero.forEach(equipo => {
       const equipoDiv = document.createElement("div");

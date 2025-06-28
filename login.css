@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(92, 0, 178);
+}
+
+.formulario{
+margin: auto;
+background-color: transparent;
+border-radius: 5px;
+}
+
+
+.candado{
+    margin: auto;
+}
+
+h1{
+    color: rgb(222, 0, 200);
+    text-align: center;
+
+}
+
+.boton{
+    text-align: center;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    color: white;
+}
